@@ -1,0 +1,10 @@
+$ mongo
+ 
+$ show abs
+
+$ use dataCPU
+
+$ db.createUser({user: "sarahgushef", pwd: "1234", roles:["readWrite", "dbAdmin"]});
+
+$ db.createCollection('data');
+
