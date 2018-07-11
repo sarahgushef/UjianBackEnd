@@ -1,0 +1,15 @@
+$ create database toko;
+
+$ use toko;
+
+$ create table karyawan(
+No INT NOT NULL AUTO_INCREMENT,
+Nama Text,
+Hari INT NOT NULL,
+Bulan INT NOT NULL,
+Tahun INT NOT NULL,
+Zodiak TEXT,
+Usia INT NOT NULL,
+Primary key (No)
+);
+
